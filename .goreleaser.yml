@@ -14,19 +14,5 @@ builds:
 release:
   prerelease: auto
 
-universal_binaries:
-  - replace: true
-
-brews:
-  -
-    name: askcloudhelloworld
-    homepage: https://github.com/askcloudarchitech/askcloudhelloworld
-    tap:
-      owner: askcloudarchitech
-      name: homebrew-askcloudarchitech
-    commit_author:
-      name: gmorse81
-      email: gmorse81@gmail.com
-
 checksum:
   name_template: 'checksums.txt'
